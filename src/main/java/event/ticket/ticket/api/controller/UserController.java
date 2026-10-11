@@ -36,8 +36,6 @@ public class UserController {
     }
 
 
-
-
     public CreateUserResponseDTO mapToResponse(User user){
         return CreateUserResponseDTO.builder()
                 .userId(user.getId())
